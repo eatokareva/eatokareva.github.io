@@ -5,7 +5,6 @@
         display: flex;
         justify-content: space-between;
         align-items:center;
-        margin-top: 42px;
         h1 {
             width: 988px;
             height: 151px;
@@ -16,7 +15,6 @@
             color: #FFD874;
         }
         .contact {
-            margin-top: 20px;
             width: 312px;
             height: 89px;
             display: flex;
@@ -50,11 +48,11 @@
     .descr {
         margin-top: 40px;
         width: 923px;
-        font-weight: 400px;
+        font-weight: 400;
         font-size: 16px;
         color: #DEE7EA;
         span {
-            font-weight: 700px;
+            font-weight: 700;
         }
     }
     .mail {
@@ -74,6 +72,11 @@
                 font-size: 18px;
                 color: #FFFFFF;
                 text-decoration: none;
+                cursor: pointer;
+                &:hover {
+                    text-shadow: black 2px 2px 2px;
+                }
+
             }
         }
     }
