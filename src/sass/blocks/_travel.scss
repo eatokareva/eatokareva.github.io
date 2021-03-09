@@ -4,9 +4,11 @@
     background: url('../img/bg.jpg') center center/cover no-repeat;
     
     .header {
-        .container {
-            width: 1600px;
-        }
+        // .container {
+        //     width: 1600px;
+        // }
+        padding-right: 160px;
+        padding-left: 160px;
         &__wrapper {
             padding-top: 22px;
             display: flex;
