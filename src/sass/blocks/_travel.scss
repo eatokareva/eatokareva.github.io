@@ -2,7 +2,17 @@
     position: relative;
     min-height: 980px;
     background: url('../img/bg.jpg') center center/cover no-repeat;
+    .container {
+        margin-left: 160px;
+        padding: 0;
+    }
     
+    .container-fluid {
+        margin-left: 160px;
+        margin-right: 160px;
+        // width: 1600px;
+        padding: 0;
+    }
     .header {
         padding-top: 42px;
         display: flex;
