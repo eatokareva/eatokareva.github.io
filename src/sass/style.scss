@@ -7,8 +7,17 @@
 @import 'blocks/media';
 
 .container {
-    position: relative;
-    width: 988px;
-    left: 160px;
+    margin-left: 160px;
+    padding: 0;
+    
+    
+}
+
+.container-fluid {
+    margin-left: 160px;
+    margin-right: 160px;
+    // width: 1600px;
+    padding: 0;
+    
     
 }

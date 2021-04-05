@@ -4,6 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Tourist</title>
+        <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
         <link rel="stylesheet" href="css/fonts.css">
         <link rel="stylesheet" href="css/style.min.css">
@@ -11,56 +13,70 @@
     <body>
         <div class="travel">
             <div class="header">
-                <div class="header__wrapper">
-                    <h1>Путешествуй!</h1>
-                    <div class="header__contact">
-                        <div class="header__data">11–13 июня 2021</div>
-                        <div class="header__place">г. Москва, ВДНХ, 55 павильон</div>
-                        <div class="header__line"></div>
+                <div class="container-fluid">
+                    <div class="row vertical-align">
+                        <div class="col-12 col-md-6 col-lg-7 col-xl-8"><h1>Путешествуй!</h1></div>
+                        <div class="col-12 col-md-5 offset-md-1 col-lg-4 offset-lg-1 col-xl-3 offset-xl-1" >
+                            <div class="header__contact">
+                                <div class="header__data">11–13 июня 2021</div>
+                                <div class="header__place">г. Москва, ВДНХ, 55 павильон</div>
+                                <div class="header__line"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <!-- <div class="container">
-                    
-                </div> -->
             </div>   
             <div class="descr">
                 <div class="container">
-                    <h2>российский туристический форум</h2>
-                    <div class="descr__text">
-                        Российский туристический форум «Путешествуй!» – это мероприятие нового поколения, посвященное современной туристической индустрии во всем ее многообразии.
-                        <br>
-                        На одной гостеприимной площадке будут представлены <span>безграничные возможности российских регионов</span>, от известных маршрутов для путешествий до необычных форматов, набирающих популярность: глэмпинг, автотуризм, гастрономические туры и экопоходы, образовательный и медицинский туризм и многое другое.
-                        <br>
-                        Представители власти и бизнеса, ведущие эксперты и создатели инновационных цифровых сервисов обсудят <span>идеи для развития отрасли</span>.
-                        <br>
-                        Гостей мероприятия ждут <span>мастер-классы, выступления известных тревел-блогеров и выставка</span> туристических маршрутов и курортов в России и за рубежом.
+                    <div class="row">
+                        <div class="col-sm-8 col-md-6 col-lg-9">
+                            <h2>российский туристический форум</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-10 col-lg-10">
+                            <div class="descr__text">
+                                Российский туристический форум «Путешествуй!» – это мероприятие нового поколения, посвященное современной туристической индустрии во всем ее многообразии.
+                                <br>
+                                На одной гостеприимной площадке будут представлены <span>безграничные возможности российских регионов</span>, от известных маршрутов для путешествий до необычных форматов, набирающих популярность: глэмпинг, автотуризм, гастрономические туры и экопоходы, образовательный и медицинский туризм и многое другое.
+                                <br>
+                                Представители власти и бизнеса, ведущие эксперты и создатели инновационных цифровых сервисов обсудят <span>идеи для развития отрасли</span>.
+                                <br>
+                                Гостей мероприятия ждут <span>мастер-классы, выступления известных тревел-блогеров и выставка</span> туристических маршрутов и курортов в России и за рубежом.
+                                </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="contacts">
                 <div class="container">
-                    <div class="contacts__information">
-                        <div class="contacts__mail">
-                            <div class="contacts__text">Чтобы получить больше информации о мероприятии</div>
-                            <a href="mailto:info@rustravelforum.com">info@rustravelforum.com</a>
-                        </div>
-                        <div class="contacts__mail">
-                            <div class="contacts__text">По вопросам партнерского участия  </div>
-                            <a href="mailto:partners@roscongress.org">partners@roscongress.org</a>
+                    <div class="row">
+                        <div class="contacts__information">
+                            <div class="contacts__mail">
+                                <div class="contacts__text">Чтобы получить больше информации о мероприятии</div>
+                                <a href="mailto:info@rustravelforum.com">info@rustravelforum.com</a>
+                            </div>
+                            <div class="contacts__mail">
+                                <div class="contacts__text">По вопросам партнерского участия  </div>
+                                <a href="mailto:partners@roscongress.org">partners@roscongress.org</a>
+                            </div>
                         </div>
                     </div>
+
                 </div>
             </div>
             <div class="footer">
                 <div class="container">
-                    <div class="footer__wrapper">
-                        <div class="footer__logo">
-                            <a href="#" ><img src="icons/logo.png" alt=""></a>
-                        </div>
-                        <div class="footer__social">
-                            <a href="" class="footer__item"><img src="icons/Vkontakte.png" alt=""></a>
-                            <a href="" class="footer__item"><img src="icons/Instagram.png" alt=""></a>
-                            <a href="" class="footer__item"><img src="icons/YouTube.png" alt=""></a>
+                    <div class="row">
+                        <div class="footer__wrapper">
+                            <div class="footer__logo">
+                                <a href="#" ><img src="icons/logo.png" alt=""></a>
+                            </div>
+                            <div class="footer__social">
+                                <a href="" class="footer__item"><img src="icons/Vkontakte.png" alt=""></a>
+                                <a href="" class="footer__item"><img src="icons/Instagram.png" alt=""></a>
+                                <a href="" class="footer__item"><img src="icons/YouTube.png" alt=""></a>
+                            </div>
                         </div>
                     </div>
                 </div>
