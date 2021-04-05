@@ -43,6 +43,7 @@
         // }
         &__contact {
             // width: 312px;
+            padding-top: 20px;
             height: 89px;
             display: flex;
             justify-content: center;
@@ -113,7 +114,7 @@
         
     }
     .footer {
-        padding-left: 15px;
+        // padding-left: 15px;
         position: absolute;
         bottom: 37px;
         &__wrapper {
