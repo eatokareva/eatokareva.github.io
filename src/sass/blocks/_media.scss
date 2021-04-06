@@ -13,14 +13,14 @@
                 width: 100%;
             }
             &__data {
-                font-size: 20px;
+                font-size: 28px;
             }
             &__place {
-                font-size: 11px;
+                font-size: 14px;
             }
             &__line {
                 height: 7px;
-                width: 210px;
+                width: 240px;
             }
         }
         .descr {
@@ -63,23 +63,23 @@
             //     align-items: flex-end;
             // }
             &__data {
-                font-size: 20px;
+                font-size: 28px;
             }
             &__place {
-                font-size: 12px;
+                font-size: 14px;
             }
             &__line {
                 height: 7px;
-                width: 210px;
+                width: 237px;
             }
         }
         .descr {
             
             &__text {
-                font-size: 14px;
+                font-size: 16px;
             }
             h2 {
-                font-size: 20px;
+                font-size: 24px;
             }
         }
     }
@@ -111,19 +111,19 @@
             //     align-items: flex-end;
             // }
             &__data {
-                font-size: 20px;
+                font-size: 24px;
             }
             &__place {
-                font-size: 12px;
+                font-size: 16px;
             }
             &__line {
                 height: 7px;
-                width: 250px;
+                width: 271px;
             }
         }
         .descr {
             &__text {
-                font-size: 14px;
+                font-size: 16px;
             }
             h2 {
                 font-size: 20px;
@@ -153,14 +153,14 @@
             }
             
             &__data {
-                font-size: 16px;
+                font-size: 20px;
             }
             &__place {
-                font-size: 12px;
+                font-size: 14px;
             }
             &__line {
                 height: 6px;
-                width: 205px;
+                width: 240px;
             }
         }
         .descr {
@@ -172,6 +172,9 @@
             }
         }
         .contacts {
+            &__information {
+                margin-top: 30px;
+            }
             &__mail {
                 a {
                     font-size: 16px;
@@ -196,6 +199,7 @@
             margin-left: 60px;
         }
         .header {
+            padding-top: 30px;
             h1 {
                 font-size: 35px;
             }
@@ -205,7 +209,7 @@
             
             }
             &__data {
-                font-size: 16px;
+                font-size: 18px;
             }
             &__place {
                 font-size: 12px;
@@ -221,7 +225,7 @@
                 font-size: 14px;
             }
             h2 {
-                margin-top: 10px;
+                margin-top: 0px;
                 font-size: 16px;
             }
         }
@@ -244,7 +248,7 @@
         max-width: 280px;
     }
     .travel {
-        min-height: 1365px;
+        min-height: 1480px;
         .container-fluid {
             margin-left: 16px;
         }
@@ -254,7 +258,7 @@
         .header {
             padding-top: 40px;
             h1 {
-                font-size: 30px;
+                font-size: 35px;
             }
             
         }
@@ -279,15 +283,15 @@
             }   
             &__data {
                 font-weight: 700;
-                font-size: 26px;
+                font-size: 24px;
             }
             &__place {
                 font-weight: 400;
-                font-size: 16px;
+                font-size: 15px;
             }
             &__line {
-                width: 280px;
-                height: 8px;
+                width: 295px;
+                height: 7px;
                 background: #FFD874;
             }
 
@@ -301,6 +305,7 @@
             }
         }
         .contacts {
+            
             &__information {
                 padding-left: 15px;
                 margin-top: 5px;
@@ -315,7 +320,7 @@
             }
         }
         .footer {
-            bottom: 57px;
+            bottom: 37px;
             &__logo {
                 margin-left: 16px;
                 margin-right: 30px;
